@@ -79,6 +79,8 @@ loop do
         puts "勝負がついたので終わります"
         # 変数確認
         break
+      else
+        next
       end
     else
        puts "#{disp_look}の中から選んでください"
